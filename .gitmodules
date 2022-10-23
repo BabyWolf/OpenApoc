@@ -10,7 +10,7 @@
 	url = https://github.com/zeux/pugixml.git
 [submodule "dependencies/libsmacker"]
 	path = dependencies/libsmacker
-	url = https://github.com/JonnyH/libsmacker.git
+	url = https://github.com/BabyWolf/libsmacker.git
 [submodule "dependencies/miniz"]
 	path = dependencies/miniz
 	url = https://github.com/JonnyH/miniz.git

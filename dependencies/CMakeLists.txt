@@ -11,14 +11,10 @@ set(THREADS_PREFER_PTHREAD_FLAG ON)
 find_package (Threads REQUIRED)
 
 set (LIBSMACKER_SOURCE_FILES
-	libsmacker/smacker.c
-	libsmacker/smk_bitstream.c
-	libsmacker/smk_hufftree.c)
+	libsmacker/smacker.c)
 source_group(libsmacker\\sources FILES ${LIBSMACKER_SOURCE_FILES})
 set (LIBSMACKER_HEADER_FILES
 	libsmacker/smacker.h
-	libsmacker/smk_bitstream.h
-	libsmacker/smk_hufftree.h
 	libsmacker/smk_malloc.h)
 source_group(libsmacker\\headers FILES ${LIBSMACKER_HEADER_FILES})
 
